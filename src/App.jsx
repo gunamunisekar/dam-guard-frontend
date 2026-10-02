@@ -1460,7 +1460,7 @@ function AIModelDetail({
 
         const predictionResponse =
           await fetch(
-            "http://127.0.0.1:8000/predict/overtopping",
+            "https://dam-guard-frontend.onrender.com/predict/overtopping",
             {
               method: "POST",
 
@@ -2505,7 +2505,7 @@ function LiveSensorMonitoring() {
 
       const response =
         await fetch(
-          "http://127.0.0.1:8000/sensor/live"
+          "https://dam-guard-frontend.onrender.com/sensor/live"
         );
 
 
