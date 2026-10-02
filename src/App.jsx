@@ -1441,7 +1441,7 @@ function AIModelDetail({
 
         const sensorResponse =
           await fetch(
-            "http://127.0.0.1:8000/sensor/live"
+            "https://dam-guard-frontend.onrender.com/sensor/live"
           );
 
 
